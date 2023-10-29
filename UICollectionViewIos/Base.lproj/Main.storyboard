@@ -17,9 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Swd-ng-CWJ">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="200"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="kfB-Ga-hCA">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="fvU-FM-6zd"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="kfB-Ga-hCA">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -33,7 +36,6 @@
                         <constraints>
                             <constraint firstItem="Swd-ng-CWJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8gN-Y3-cZw"/>
                             <constraint firstItem="Swd-ng-CWJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CrC-D1-yeE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Swd-ng-CWJ" secondAttribute="bottom" id="J0R-0G-z0j"/>
                             <constraint firstItem="Swd-ng-CWJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jOn-qY-JLG"/>
                         </constraints>
                     </view>
