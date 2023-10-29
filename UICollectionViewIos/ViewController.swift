@@ -5,6 +5,8 @@ import UIKit
 class ViewController: UIViewController {
 
     var myCountries = ["Argentina", "Italia", "Brasil", "Estados Unidos"]
+    private let myCellWidth = UIScreen.main.bounds.width / 2 // obtengo el ancho de pantalla
+    
     
     @IBOutlet weak var myCollectionView: UICollectionView!
     override func viewDidLoad() {
@@ -42,5 +44,12 @@ extension ViewController: UICollectionViewDataSource {
 extension ViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print()
+    }
+}
+
+
+extension ViewController: UICollectionViewDelegateFlowLayout{
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: myCellWidth, height: myCellWidth)
     }
 }
