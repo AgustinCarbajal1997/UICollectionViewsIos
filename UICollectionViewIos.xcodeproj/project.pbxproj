@@ -13,6 +13,8 @@
 		9F65AA6C2AEDD9BF00101859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F65AA6A2AEDD9BF00101859 /* Main.storyboard */; };
 		9F65AA6E2AEDD9C100101859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F65AA6D2AEDD9C100101859 /* Assets.xcassets */; };
 		9F65AA712AEDD9C100101859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F65AA6F2AEDD9C100101859 /* LaunchScreen.storyboard */; };
+		9F65AA7A2AEDDD3D00101859 /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65AA782AEDDD3D00101859 /* MyCustomCollectionViewCell.swift */; };
+		9F65AA7B2AEDDD3D00101859 /* MyCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F65AA792AEDDD3D00101859 /* MyCustomCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9F65AA6D2AEDD9C100101859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F65AA702AEDD9C100101859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F65AA722AEDD9C100101859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F65AA782AEDDD3D00101859 /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F65AA792AEDDD3D00101859 /* MyCustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9F65AA6D2AEDD9C100101859 /* Assets.xcassets */,
 				9F65AA6F2AEDD9C100101859 /* LaunchScreen.storyboard */,
 				9F65AA722AEDD9C100101859 /* Info.plist */,
+				9F65AA782AEDDD3D00101859 /* MyCustomCollectionViewCell.swift */,
+				9F65AA792AEDDD3D00101859 /* MyCustomCollectionViewCell.xib */,
 			);
 			path = UICollectionViewIos;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				9F65AA712AEDD9C100101859 /* LaunchScreen.storyboard in Resources */,
 				9F65AA6E2AEDD9C100101859 /* Assets.xcassets in Resources */,
 				9F65AA6C2AEDD9BF00101859 /* Main.storyboard in Resources */,
+				9F65AA7B2AEDDD3D00101859 /* MyCustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				9F65AA692AEDD9BF00101859 /* ViewController.swift in Sources */,
 				9F65AA652AEDD9BF00101859 /* AppDelegate.swift in Sources */,
+				9F65AA7A2AEDDD3D00101859 /* MyCustomCollectionViewCell.swift in Sources */,
 				9F65AA672AEDD9BF00101859 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
